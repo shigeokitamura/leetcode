@@ -16,7 +16,6 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    print(s.kidsWithCandies("ABCABC", "ABC")) # "ABC"
-    print(s.kidsWithCandies("ABABAB", "ABAB")) # "AB"
-    print(s.kidsWithCandies("LEET", "CODE")) # ""
-WIP
+    print(s.kidsWithCandies([2,3,5,1,3])) # 3
+    print(s.kidsWithCandies([4,2,1,1,2])) # 1
+    print(s.kidsWithCandies([12,1,12])) # 10
